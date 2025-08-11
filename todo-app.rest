@@ -1,0 +1,52 @@
+### GET / WEBSITE
+GET http://localhost:5000
+
+
+### Register a new user POST /auth/register
+POST http://localhost:5000/auth/register 
+Content-Type: application/json
+
+{ 
+    "username": "jeff@gmail.com", 
+    "password": "urmom"
+}
+
+### Login a user POST /auth/login
+
+POST http://localhost:5000/auth/login 
+Content-Type: application/json
+
+{ 
+    "username": "jeff@gmail.com", 
+    "password": "urmom"
+}
+
+
+### FETCH all todos Get / TODOS (protected) 
+GET http://localhost:5000/todos
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzU0ODMzMDkzLCJleHAiOjE3NTQ5MTk0OTN9.rya0pLDxK5aMMy5mfwv1aSIpuumNl_6cfMRR6KlgDis
+
+
+### CREATES a new todo POST / TODOS (protected) 
+POST http://localhost:5000/todos
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzU0ODMzMDkzLCJleHAiOjE3NTQ5MTk0OTN9.rya0pLDxK5aMMy5mfwv1aSIpuumNl_6cfMRR6KlgDis
+
+{
+    "task": "Learn Node.js"
+}
+
+### UPDATE a todo PUT / TODOS /:ID (protected)
+PUT http://localhost:5000/todos/2
+Content-Type: application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzU0ODMzMDkzLCJleHAiOjE3NTQ5MTk0OTN9.rya0pLDxK5aMMy5mfwv1aSIpuumNl_6cfMRR6KlgDis
+
+{
+    "completed": 1
+}
+
+### DELETE a todo DELETE / TODOS (protected)
+DELETE http://localhost:5000/todos/1
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNzU0ODMzMDkzLCJleHAiOjE3NTQ5MTk0OTN9.rya0pLDxK5aMMy5mfwv1aSIpuumNl_6cfMRR6KlgDis
+
+### soft delete usually done in industries, set a boolean true that's all
