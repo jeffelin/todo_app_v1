@@ -160,6 +160,6 @@ backend/
 └── .env                  # Environment variables
 ```
 
-Credits to https://github.com/jamezmca/backend-full-course. 
+Credits to and adapted from https://github.com/jamezmca/backend-full-course. 
 
 
