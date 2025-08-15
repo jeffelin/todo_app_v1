@@ -31,7 +31,7 @@ A RESTful API built with Node.js, Express, Docker, and Prisma ORM for managing t
 
 ### 1. Clone the repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/jeffelin/todo_app_v1.git
 cd backend_2
 ```
 
