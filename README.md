@@ -1,6 +1,6 @@
 # Todo Backend API
 
-A RESTful API built with Node.js, Express, Docker, and Prisma ORM for managing todos with user authentication.
+A RESTful API built with Node.js, Express, Docker, and Prisma ORM for managing todos with user authentication. 
 
 ## 🚀 Features
 
@@ -160,5 +160,6 @@ backend/
 └── .env                  # Environment variables
 ```
 
+Credits to https://github.com/jamezmca/backend-full-course. 
 
 
