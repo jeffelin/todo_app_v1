@@ -7,8 +7,8 @@ POST http://localhost:5000/auth/register
 Content-Type: application/json
 
 { 
-    "username": "jeff@gmail.com", 
-    "password": "urmom"
+    "username": "youremail@gmail.com", 
+    "password": "yourpassword"
 }
 
 ### Login a user POST /auth/login
@@ -17,8 +17,8 @@ POST http://localhost:5000/auth/login
 Content-Type: application/json
 
 { 
-    "username": "jeff@gmail.com", 
-    "password": "urmom"
+    "username": "youremail@gmail.com", 
+    "password": "yourpassword"
 }
 
 
