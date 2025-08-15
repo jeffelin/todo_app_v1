@@ -1,6 +1,6 @@
 # Todo Backend API
 
-V1 is a RESTful API built with Node.js, Express, Docker, and Prisma ORM for managing todos with user authentication. V2 (if requested) includes Supabase, Stripe, Google Cloud, and OpenAI with the full stack Next.js set up. 
+V1 is a RESTful API built with Node.js, Express, Docker, and Prisma ORM for managing todos with user authentication. V2 (if requested) includes Supabase, Stripe, Google Cloud, and OpenAI with Next.js set up for any deployable full stack application. 
 
 ## 🚀 Features
 
